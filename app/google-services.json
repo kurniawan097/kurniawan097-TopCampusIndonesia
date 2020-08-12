@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "797073102211",
+    "firebase_url": "https://topcampusindonesia.firebaseio.com",
+    "project_id": "topcampusindonesia",
+    "storage_bucket": "topcampusindonesia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797073102211:android:f45e50082df89dd67ed2b6",
+        "android_client_info": {
+          "package_name": "com.kurniawan.topcampusindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797073102211-au60aqb9u6mm07qtc64gm8gg9gb8v5d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmqtI1tk8d-cS_ikkN1oGFHpMVFqcUuGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797073102211-au60aqb9u6mm07qtc64gm8gg9gb8v5d0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

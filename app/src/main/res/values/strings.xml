@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Top Campus Indonesia</string>
+    <string name="nama_campus">Nama Kampus</string>
+
+    <string name="search">Search</string>
+    <string name="grid">Grid View</string>
+    <string name="with_cardview">Card View</string>
+    <string name="logout">Logout</string>
+
+
+    <string-array name="data_name">
+        <item>Universitas Gadjah Mada</item>
+        <item>Universitas Indonesia</item>
+        <item>Universitas Diponegoro</item>
+        <item>Universitas Pendidikan Indonesia</item>
+        <item>Universitas Negeri Yogyakarta</item>
+        <item>Universitas Brawijaya</item>
+        <item>Universitas Airlangga</item>
+        <item>Universitas Sebelas Maret</item>
+        <item>Institut Pertanian Bogor</item>
+        <item>Universitas Lampung</item>
+    </string-array>
+
+
+    <string-array name="data_photo">
+        <item>https://upload.wikimedia.org/wikipedia/id/thumb/2/29/Logo_Universitas_Gadjah_Mada.png/300px-Logo_Universitas_Gadjah_Mada.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/thumb/9/95/Makara_UI.png/225px-Makara_UI.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/thumb/2/2d/Undip.png/300px-Undip.png</item>
+        <item>https://lppm.upi.edu/asset/foto_berita/logo-upi.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/thumb/5/54/Logo_uny.gif/300px-Logo_uny.gif</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Logo_Universitas_Brawijaya.svg/300px-Logo_Universitas_Brawijaya.svg.png</item>
+        <item>https://fk.unair.ac.id/wp-content/uploads/2016/09/logo-unair.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/thumb/c/cd/Logo_UNS.png/300px-Logo_UNS.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Bogor_Agricultural_University_%28IPB%29_symbol.svg/225px-Bogor_Agricultural_University_%28IPB%29_symbol.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/thumb/f/ff/Logo_UnivLampung.png/300px-Logo_UnivLampung.png</item>
+    </string-array>
+
+</resources>

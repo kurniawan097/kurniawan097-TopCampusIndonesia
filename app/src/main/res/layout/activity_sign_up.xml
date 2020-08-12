@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/logo"
+            android:textSize="28dp"
+            android:text="tcID" />
+
+        <TextView
+            style="@style/logo"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:text="Top Campus Indonesia" />
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/edtEmail"
+                style="@style/modifiedEditText"
+                android:hint="Email"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="25dp"
+
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/edtPassword"
+                style="@style/modifiedEditText"
+                android:hint="Password"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:id="@+id/btnDaftar"
+                style="@style/loginButton"
+                android:layout_width="110dp"
+                android:layout_height="39dp"
+                android:text="Sign UP"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                style="@style/logo"
+                android:layout_marginTop="15dp"
+                android:textSize="14dp"
+                android:text="OR"/>
+
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnLogin"
+                style="@style/loginButton"
+                android:layout_width="110dp"
+                android:layout_height="39dp"
+                android:text="Login" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
